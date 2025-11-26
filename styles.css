@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(95, 94, 92, 0.391);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content { 
+    background-color: rgb(205, 205, 214);
+    width: 600px;
+    height: 700px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+.main-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(181, 181, 207, 0.698);
+    background: linear-gradient(90deg,rgba(66, 82, 227, 1) 0%, rgba(60, 150, 199, 1) 100%);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-upper h1 {
+    font-size: 30px;
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.main-upper-value {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.main-upper p {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-button {
+    background-color: white;
+    padding: 15px 35px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
