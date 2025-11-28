@@ -10,14 +10,23 @@
     <div class="main">
         <div class="content">
             <div class="main-upper">
-                <h1>Metric/Imperial Unit Conversion</h1>
+                <h1>Distance Unit Converter</h1>
+                <h2>FROM</h2>
                 <div class="main-upper-value" > 
                     <p>20</p>
                 </div>
-                <button class="main-button">Convert</button>
+                <select class="main-select" id="unit-select">
+                    <option value="" disabled selected hidden>Select a unit</option>
+                    <option value="m">Meter</option>
+                    <option value="km">Kilometer</option>
+                    <option value="mi">Mile</option>
+                    <option value="ft">Foot</option>
+                    <option value="yd">Yard</option>
+                </select>
             </div>
 
             <div class="main-botton">
+                <h2>TO</h2>
             </div>
         </div>
     </div>

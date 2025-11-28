@@ -19,25 +19,39 @@ body {
 .content { 
     background-color: rgb(205, 205, 214);
     width: 600px;
-    height: 700px;
+    height: auto;
     border: 4px solid white;
     border-radius: 10px;
 }
 
-.main-upper {
+.main-upper, .main-botton {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    border-bottom: 1px solid rgba(181, 181, 207, 0.698);
     background: linear-gradient(90deg,rgba(66, 82, 227, 1) 0%, rgba(60, 150, 199, 1) 100%);
     padding-top: 20px;
-    padding-bottom: 40px;
 }
 
 .main-upper h1 {
     font-size: 30px;
     padding: 20px 30px;
+    text-align: center;
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.main-upper h2 {
+    font-size: 30px;
+    padding: 0px 30px 20px 30px;
+    text-align: center;
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.main-botton h2 {
+    font-size: 30px;
+    padding: 0px 30px 20px 30px;
     text-align: center;
     color: white;
     font-family: "Science Gothic", sans-serif;
@@ -55,12 +69,16 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main-button {
-    background-color: white;
+.main-select {
+    background-color: rgb(255, 255, 255);
     padding: 15px 35px;
-    color: black;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
     margin-top: 20px;
 }
 
+
+
+
+/* border-bottom: 1px solid rgba(181, 181, 207, 0.698); */
