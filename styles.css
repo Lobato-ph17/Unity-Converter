@@ -7,13 +7,16 @@
 
 body {
     background-color: rgba(95, 94, 92, 0.391);
+    font-family: "Science Gothic", sans-serif;
 }
+
+/* -------- LAYOUT PRINCIPAL -------- */
 
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .content { 
@@ -24,61 +27,81 @@ body {
     border-radius: 10px;
 }
 
+/* -------- BLOCO SUPERIOR E INFERIOR -------- */
+
 .main-upper, .main-botton {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     background: linear-gradient(90deg,rgba(66, 82, 227, 1) 0%, rgba(60, 150, 199, 1) 100%);
-    padding-top: 20px;
+    padding: 40px 0 0px 0;;
+    gap:20px;
 }
 
+/* -------- TÍTULOS -------- */
+
 .main-upper h1 {
-    font-size: 30px;
-    padding: 20px 30px;
-    text-align: center;
+    font-size: 32px;
     color: white;
-    font-family: "Science Gothic", sans-serif;
 }
 
 .main-upper h2 {
-    font-size: 30px;
-    padding: 0px 30px 20px 30px;
-    text-align: center;
+    font-size: 26px;
     color: white;
-    font-family: "Science Gothic", sans-serif;
+}
+
+/* -------- BLOCO SUPERIOR -------- */
+
+.value-box {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 35px;
+}
+
+.value-box p {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+/* -------- BLOCO INFERIOR -------- */
+
+.main-botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(66,82,227) 0%, rgba(60,150,199) 100%);
+    padding: 35px 0 40px 0;
+    gap: 20px;
 }
 
 .main-botton h2 {
-    font-size: 30px;
-    padding: 0px 30px 20px 30px;
-    text-align: center;
+    font-size: 36px;
     color: white;
-    font-family: "Science Gothic", sans-serif;
 }
 
-.main-upper-value {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 5px 20px;
-}
-.main-upper p {
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+/* -------- SELECTS -------- */
 
 .main-select {
-    background-color: rgb(255, 255, 255);
+    width: 260px;
+    background-color: #fff(255, 255, 255);
     padding: 15px 35px;
-    color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
-    margin-top: 20px;
+    font-size: 18px;
 }
 
+.main-select option {
+    text-align: center;
+}
 
+/* -------- SÍMBOLO DE RESULTADO -------- */
 
+.result-symbol {
+    font-size: 40px;
+    color: white;
+}
 
 /* border-bottom: 1px solid rgba(181, 181, 207, 0.698); */
